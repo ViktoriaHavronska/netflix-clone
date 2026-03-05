@@ -4,9 +4,12 @@ A beginner-friendly Netflix-style landing page built with HTML and CSS.
 
 ## Features
 
-- Responsive Header with navigation
-- Hero section with background image and buttons
-- Horizontal scrolling movie rows
-- Hover effects on movie cards
-- Flexbox and CSS Grid layout
-- Simple, modern design
+- **Multi-page design**: Home, Movies, Series, Sign In, Movie Details pages  
+- **Hero section** with background image and call-to-action buttons  
+- **Horizontal scrolling movie rows** with smooth hover zoom  
+- **Overlay on movie cards** to show titles  
+- **Sticky header** for easy navigation  
+- **Responsive design** for mobile and tablet  
+- **Custom scrollbar** styling  
+- **Polished UI** with hover effects, shadows, and gradients  
+- **Dark modern theme** inspired by Netflix
