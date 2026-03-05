@@ -1,15 +1,70 @@
 # Netflix Clone
 
-A beginner-friendly Netflix-style landing page built with HTML and CSS.
+A Netflix-inspired movie streaming UI built with HTML and CSS.
+This project was created as part of my front-end learning journey before moving on to JavaScript.
 
 ## Features
 
-- **Multi-page design**: Home, Movies, Series, Sign In, Movie Details pages  
-- **Hero section** with background image and call-to-action buttons  
-- **Horizontal scrolling movie rows** with smooth hover zoom  
-- **Overlay on movie cards** to show titles  
-- **Sticky header** for easy navigation  
-- **Responsive design** for mobile and tablet  
-- **Custom scrollbar** styling  
-- **Polished UI** with hover effects, shadows, and gradients  
-- **Dark modern theme** inspired by Netflix
+Netflix-style hero section
+
+Horizontal movie carousels
+
+Hover movie cards
+
+Sign In page UI
+
+Movies & Series pages
+
+Responsive layout
+
+Smooth scrolling
+
+Custom scrollbar
+
+Modern dark UI
+
+## Pages
+
+Home – main Netflix-style landing page
+
+Movies – movie collection page
+
+Series – TV series collection
+
+Sign In – Netflix-style login page
+
+## Built With
+
+HTML5
+
+CSS3
+
+Flexbox
+
+CSS animations
+
+Responsive design
+
+## What I Practiced
+
+Layout building with Flexbox
+
+Creating modern UI components
+
+Building responsive layouts
+
+Writing clean CSS structure
+
+Designing a real-world style interface
+
+## Future Improvements
+
+JavaScript interactivity
+
+Movie modal popups
+
+Search functionality
+
+API integration
+
+Improved animations
