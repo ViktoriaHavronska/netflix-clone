@@ -9,15 +9,18 @@
 
 <!-- HEADER -->
 <header>
-    <div class="header">
-        <div class="logo">NETFLIX</div>
-        <nav class="nav">
-            <a href="index.html">Home</a>
-            <a href="movies.html">Movies</a>
-            <a href="series.html">Series</a>
-            <a href="signin.html">Sign In</a>
-        </nav>
+    <div class="logo">NETFLIX</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="series.html">Series</a></li>
+    </ul>
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search movies">
     </div>
+    <a href="signin.html">
+        <button class="sign-in">Sign In</button>
+    </a>
 </header>
 
 <!-- HERO SECTION -->
@@ -36,37 +39,44 @@
 <section class="movies">
     <h2>Trending Now</h2>
     <div class="movie-row">
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg">
+        <div class="movie-card" data-title="Breaking Bad"><img
+                src="https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg">
             <div class="overlay">
                 <h3>Breaking Bad</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg">
+        <div class="movie-card" data-title="The Witcher"><img
+                src="https://image.tmdb.org/t/p/w500/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg">
             <div class="overlay">
                 <h3>The Witcher</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/ptpr0kGAckfQkJeJIt8st5dglvd.jpg">
+        <div class="movie-card" data-title="Oppenheimer"><img
+                src="https://image.tmdb.org/t/p/w500/ptpr0kGAckfQkJeJIt8st5dglvd.jpg">
             <div class="overlay">
                 <h3>Oppenheimer</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg">
+        <div class="movie-card" data-title="Dune"><img
+                src="https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg">
             <div class="overlay">
                 <h3>Dune</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg">
+        <div class="movie-card" data-title="Stranger Things"><img
+                src="https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg">
             <div class="overlay">
                 <h3>Stranger Things</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg">
+        <div class="movie-card" data-title="Interstellar"><img
+                src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg">
             <div class="overlay">
                 <h3>Interstellar</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg">
+        <div class="movie-card" data-title="The Dark Knight"><img
+                src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg">
             <div class="overlay">
                 <h3>The Dark Knight</h3>
             </div>
@@ -77,27 +87,32 @@
 <section class="movies">
     <h2>Top Rated</h2>
     <div class="movie-row">
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg">
+        <div class="movie-card" data-title="Joker"><img
+                src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg">
             <div class="overlay">
                 <h3>Joker</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg">
+        <div class="movie-card" data-title="Avatar"><img
+                src="https://image.tmdb.org/t/p/w500/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg">
             <div class="overlay">
                 <h3>Avatar</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg">
+        <div class="movie-card" data-title="Inception"><img
+                src="https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg">
             <div class="overlay">
                 <h3>Inception</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg">
+        <div class="movie-card" data-title="Peaky Blinders"><img
+                src="https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg">
             <div class="overlay">
                 <h3>Peaky Blinders</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg">
+        <div class="movie-card" data-title="Game of Thrones"><img
+                src="https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg">
             <div class="overlay">
                 <h3>Game of Thrones</h3>
             </div>
@@ -108,23 +123,37 @@
 <section class="movies">
     <h2>Popular</h2>
     <div class="movie-row">
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg">
+        <div class="movie-card" data-title="Wednesday"><img
+                src="https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg">
             <div class="overlay">
                 <h3>Wednesday</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg">
+        <div class="movie-card" data-title="Money Heist"><img
+                src="https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg">
             <div class="overlay">
                 <h3>Money Heist</h3>
             </div>
         </div>
-        <div class="movie-card"><img src="https://image.tmdb.org/t/p/w500/stTEycfG9928HYGEISBFaG1ngjM.jpg">
+        <div class="movie-card" data-title="The Boys"><img
+                src="https://image.tmdb.org/t/p/w500/stTEycfG9928HYGEISBFaG1ngjM.jpg">
             <div class="overlay">
                 <h3>The Boys</h3>
             </div>
         </div>
     </div>
 </section>
+
+<!-- MOVIE MODAL -->
+<div class="movie-modal" id="movie-modal">
+    <div class="modal-content">
+        <span class="close-modal">✖</span>
+        <h2>Movie Title</h2>
+        <p>
+            This is a movie description. Plot, genre, rating etc.
+        </p>
+    </div>
+</div>
 
 <!-- FOOTER -->
 <footer class="footer">
