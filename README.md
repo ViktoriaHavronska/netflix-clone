@@ -1,70 +1,72 @@
-# Netflix Clone
+# 🎬 Netflix Clone — Streaming UI
 
-A Netflix-inspired movie streaming UI built with HTML and CSS.
-This project was created as part of my front-end learning journey before moving on to JavaScript.
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Role](https://img.shields.io/badge/Role-Developer%20%26%20PM-blue)
+![Stack](https://img.shields.io/badge/Stack-Frontend-lightgrey)
+![Type](https://img.shields.io/badge/Type-UI%20Clone%20%2F%20Case%20Study-red)
 
-## Features
+> A frontend clone of Netflix's UI — built as a UX case study in replicating a world-class streaming product experience.
 
-Netflix-style hero section
+---
 
-Horizontal movie carousels
+## 🎯 Product Goal
 
-Hover movie cards
+Reverse-engineer Netflix's UI to understand the design decisions behind one of the world's most successful streaming platforms — focusing on layout, content hierarchy, and user experience patterns.
 
-Sign In page UI
+**Purpose:** Educational case study + technical frontend challenge.
 
-Movies & Series pages
+---
 
-Responsive layout
+## 🧩 PM Case Study — Why Netflix's UX Works
 
-Smooth scrolling
+This project wasn't just about copying pixels. As a PM, I analyzed *why* Netflix made specific design decisions:
 
-Custom scrollbar
+| Netflix Design Decision | PM Reasoning Behind It |
+|---|---|
+| Hero banner with autoplay | Immediate value demonstration — show, don't tell |
+| Horizontal scroll rows by genre | Reduces decision fatigue, increases browsing time |
+| Hover-to-preview | Reduces clicks to engagement — lowers friction |
+| "Continue Watching" row first | Retention mechanic — brings users back to existing sessions |
+| Minimal navigation | Content is the product — UI gets out of the way |
 
-Modern dark UI
+---
 
-## Pages
+## ✅ What Was Built (Scope)
 
-Home – main Netflix-style landing page
+| Feature | Status |
+|---|---|
+| Hero banner section | ✅ Done |
+| Content rows with horizontal scroll | ✅ Done |
+| Responsive layout (mobile + desktop) | ✅ Done |
+| Navigation header | ✅ Done |
+| Hover effects | ✅ Done |
+| Authentication (login/signup) | ❌ Out of scope |
+| Real API integration (TMDB) | ❌ Out of scope |
+| Video playback | ❌ Out of scope |
 
-Movies – movie collection page
+---
 
-Series – TV series collection
+## 🗂 Project Scope
 
-Sign In – Netflix-style login page
+- **Type:** UI Clone / UX Case Study
+- **Duration:** ~3–4 days
+- **Methodology:** Kanban
+- **Goal:** Learn by replicating a best-in-class product
 
-## Built With
+### Key PM Decision
+Chose Netflix specifically because it represents **product-led growth** — the UI itself is designed to increase engagement and retention, not just display content. Understanding this as a PM is more valuable than building yet another todo app.
 
-HTML5
+---
 
-CSS3
+## 🧠 What I Learned as PM
 
-Flexbox
+- How world-class products reduce friction at every step
+- How content hierarchy drives user behavior
+- How to think about retention mechanics in product design
+- How to scope a clone project (what to include, what to skip)
 
-CSS animations
+---
 
-Responsive design
+## 👤 Author
 
-## What I Practiced
-
-Layout building with Flexbox
-
-Creating modern UI components
-
-Building responsive layouts
-
-Writing clean CSS structure
-
-Designing a real-world style interface
-
-## Future Improvements
-
-JavaScript interactivity
-
-Movie modal popups
-
-Search functionality
-
-API integration
-
-Improved animations
+**Viktoria Havronska** — Junior Project Manager & Frontend Developer  
